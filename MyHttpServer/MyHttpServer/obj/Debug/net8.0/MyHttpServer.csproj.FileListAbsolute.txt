@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\MyHttpServer\MyHttpServer\bin\Debug\net8.0\MyHttpServer.exe
+C:\Users\user\Desktop\MyHttpServer\MyHttpServer\bin\Debug\net8.0\MyHttpServer.deps.json
+C:\Users\user\Desktop\MyHttpServer\MyHttpServer\bin\Debug\net8.0\MyHttpServer.runtimeconfig.json
+C:\Users\user\Desktop\MyHttpServer\MyHttpServer\bin\Debug\net8.0\MyHttpServer.dll
+C:\Users\user\Desktop\MyHttpServer\MyHttpServer\bin\Debug\net8.0\MyHttpServer.pdb
+C:\Users\user\Desktop\MyHttpServer\MyHttpServer\obj\Debug\net8.0\MyHttpServer.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\MyHttpServer\MyHttpServer\obj\Debug\net8.0\MyHttpServer.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\MyHttpServer\MyHttpServer\obj\Debug\net8.0\MyHttpServer.AssemblyInfo.cs
+C:\Users\user\Desktop\MyHttpServer\MyHttpServer\obj\Debug\net8.0\MyHttpServer.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\MyHttpServer\MyHttpServer\obj\Debug\net8.0\MyHttpServer.dll
+C:\Users\user\Desktop\MyHttpServer\MyHttpServer\obj\Debug\net8.0\refint\MyHttpServer.dll
+C:\Users\user\Desktop\MyHttpServer\MyHttpServer\obj\Debug\net8.0\MyHttpServer.pdb
+C:\Users\user\Desktop\MyHttpServer\MyHttpServer\obj\Debug\net8.0\MyHttpServer.genruntimeconfig.cache
+C:\Users\user\Desktop\MyHttpServer\MyHttpServer\obj\Debug\net8.0\ref\MyHttpServer.dll
+C:\Users\user\Desktop\MyHttpServer\MyHttpServer\bin\Debug\net8.0\settings.json
