@@ -8,6 +8,6 @@ build_property.PlatformNeutralAssembly =
 build_property.EnforceExtendedAnalyzerRules = 
 build_property._SupportedPlatformList = Linux,macOS,Windows
 build_property.RootNamespace = MyHttpServer
-build_property.ProjectDir = C:\Users\user\Desktop\ORIS-11-507\MyHttpServer\MyHttpServer\
+build_property.ProjectDir = C:\Users\user\Desktop\ORIS-11-507\HomeWork3\MyHttpServer\MyHttpServer\
 build_property.EnableComHosting = 
 build_property.EnableGeneratedComInterfaceComImportInterop = 

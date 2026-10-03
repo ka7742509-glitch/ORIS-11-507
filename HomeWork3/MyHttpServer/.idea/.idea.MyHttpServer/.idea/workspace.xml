@@ -7,38 +7,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a76dc3e7-4259-47f6-a24f-8d1df468a10f" name="Изменения" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyHttpServer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyHttpServer/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyHttpServer/Framework/Configuration/ConfigurationManager.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyHttpServer/Framework/Configuration/SettingsModel.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyHttpServer/Framework/Http/HttpServer.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyHttpServer/MyHttpServer.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/MyHttpServer.csproj" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyHttpServer/Program.cs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyHttpServer/bin/Debug/net8.0/MyHttpServer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/bin/Debug/net8.0/MyHttpServer.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyHttpServer/bin/Debug/net8.0/MyHttpServer.exe" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/bin/Debug/net8.0/MyHttpServer.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyHttpServer/bin/Debug/net8.0/MyHttpServer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/bin/Debug/net8.0/MyHttpServer.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyHttpServer/bin/Debug/net8.0/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/MyHttpServer.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/MyHttpServer.AssemblyInfo.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/MyHttpServer.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/MyHttpServer.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/MyHttpServer.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/MyHttpServer.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/MyHttpServer.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/MyHttpServer.assets.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/MyHttpServer.csproj.CoreCompileInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/MyHttpServer.csproj.CoreCompileInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/MyHttpServer.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/MyHttpServer.csproj.FileListAbsolute.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/MyHttpServer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/MyHttpServer.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/MyHttpServer.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/MyHttpServer.genruntimeconfig.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/MyHttpServer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/MyHttpServer.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/apphost.exe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/ref/MyHttpServer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/ref/MyHttpServer.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/refint/MyHttpServer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/refint/MyHttpServer.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyHttpServer/obj/MyHttpServer.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/obj/MyHttpServer.csproj.nuget.dgspec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyHttpServer/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyHttpServer/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/obj/project.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyHttpServer/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/obj/project.packagespec.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyHttpServer/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/obj/rider.project.model.nuget.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyHttpServer/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/obj/rider.project.restore.info" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyHttpServer/settings.json" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/MyHttpServer/static/image.html" beforeDir="false" />
-    </list>
+    <list default="true" id="a76dc3e7-4259-47f6-a24f-8d1df468a10f" name="Изменения" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -48,7 +17,7 @@
     <option name="firstShow" value="false" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/MyHttpServer/Core/HttpServer.cs" root0="FORCE_HIGHLIGHTING" />
@@ -124,6 +93,14 @@
       <workItem from="1790976083245" duration="145000" />
       <workItem from="1790976244165" duration="2724000" />
       <workItem from="1791005747966" duration="78000" />
+      <workItem from="1791006122702" duration="95000" />
+      <workItem from="1791008780645" duration="19000" />
+      <workItem from="1791009479242" duration="12000" />
+      <workItem from="1791009522729" duration="11000" />
+      <workItem from="1791009701106" duration="40000" />
+      <workItem from="1791011304247" duration="2000" />
+      <workItem from="1791012303622" duration="1038000" />
+      <workItem from="1791014177020" duration="520000" />
     </task>
     <servers />
   </component>

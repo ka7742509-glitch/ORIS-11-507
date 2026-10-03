@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\user\\Desktop\\ORIS-11-507\\MyHttpServer\\MyHttpServer\\MyHttpServer.csproj": {}
+    "C:\\Users\\user\\Desktop\\ORIS-11-507\\HomeWork3\\MyHttpServer\\MyHttpServer\\MyHttpServer.csproj": {}
   },
   "projects": {
-    "C:\\Users\\user\\Desktop\\ORIS-11-507\\MyHttpServer\\MyHttpServer\\MyHttpServer.csproj": {
+    "C:\\Users\\user\\Desktop\\ORIS-11-507\\HomeWork3\\MyHttpServer\\MyHttpServer\\MyHttpServer.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\user\\Desktop\\ORIS-11-507\\MyHttpServer\\MyHttpServer\\MyHttpServer.csproj",
+        "projectUniqueName": "C:\\Users\\user\\Desktop\\ORIS-11-507\\HomeWork3\\MyHttpServer\\MyHttpServer\\MyHttpServer.csproj",
         "projectName": "MyHttpServer",
-        "projectPath": "C:\\Users\\user\\Desktop\\ORIS-11-507\\MyHttpServer\\MyHttpServer\\MyHttpServer.csproj",
+        "projectPath": "C:\\Users\\user\\Desktop\\ORIS-11-507\\HomeWork3\\MyHttpServer\\MyHttpServer\\MyHttpServer.csproj",
         "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\user\\Desktop\\ORIS-11-507\\MyHttpServer\\MyHttpServer\\obj\\",
+        "outputPath": "C:\\Users\\user\\Desktop\\ORIS-11-507\\HomeWork3\\MyHttpServer\\MyHttpServer\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"

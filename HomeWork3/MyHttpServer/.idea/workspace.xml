@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="4c7b6aaa-7044-47fb-8711-04131832baa6" name="Изменения" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyHttpServer/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyHttpServer/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.MyHttpServer/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.MyHttpServer/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyHttpServer/MyHttpServer.csproj" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/MyHttpServer.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyHttpServer/bin/Debug/net8.0/MyHttpServer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/bin/Debug/net8.0/MyHttpServer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyHttpServer/bin/Debug/net8.0/MyHttpServer.exe" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/bin/Debug/net8.0/MyHttpServer.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyHttpServer/bin/Debug/net8.0/MyHttpServer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/bin/Debug/net8.0/MyHttpServer.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/MyHttpServer.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/MyHttpServer.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/MyHttpServer.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/MyHttpServer.AssemblyInfoInputs.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/MyHttpServer.GeneratedMSBuildEditorConfig.editorconfig" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/MyHttpServer.GeneratedMSBuildEditorConfig.editorconfig" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/MyHttpServer.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/MyHttpServer.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/MyHttpServer.csproj.FileListAbsolute.txt" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/MyHttpServer.csproj.FileListAbsolute.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/MyHttpServer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/MyHttpServer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/MyHttpServer.genruntimeconfig.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/MyHttpServer.genruntimeconfig.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/MyHttpServer.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/MyHttpServer.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/MyHttpServer.sourcelink.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/MyHttpServer.sourcelink.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/apphost.exe" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/ref/MyHttpServer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/ref/MyHttpServer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/refint/MyHttpServer.dll" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/obj/Debug/net8.0/refint/MyHttpServer.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyHttpServer/obj/MyHttpServer.csproj.nuget.dgspec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/obj/MyHttpServer.csproj.nuget.dgspec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyHttpServer/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyHttpServer/obj/project.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/obj/project.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyHttpServer/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/obj/project.packagespec.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyHttpServer/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyHttpServer/obj/rider.project.restore.info" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/obj/rider.project.restore.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/MyHttpServer/settings.json" beforeDir="false" afterPath="$PROJECT_DIR$/MyHttpServer/settings.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3KAtVY9xsZDrY2gOCoUGqdQ8VJi" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main"
+  }
+}]]></component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-WS-262.10315.144" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Задача по умолчанию">
+      <changelist id="4c7b6aaa-7044-47fb-8711-04131832baa6" name="Изменения" comment="" />
+      <created>1791012229291</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1791012229291</updated>
+      <workItem from="1791012233151" duration="44000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>
