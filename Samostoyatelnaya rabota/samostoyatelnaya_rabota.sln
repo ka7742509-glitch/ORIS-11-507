@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "independent_work", "independent_work\independent_work.csproj", "{37ACD96F-00F3-410A-A5F6-156B4A0F3CCE}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "samostoyatelnaya_rabota", "samostoyatelnaya_rabota\samostoyatelnaya_rabota.csproj", "{37ACD96F-00F3-410A-A5F6-156B4A0F3CCE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

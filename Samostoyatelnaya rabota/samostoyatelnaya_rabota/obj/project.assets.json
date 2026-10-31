@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\user\\Desktop\\ORIS-11-507\\independent work\\independent_work\\independent_work.csproj",
-      "projectName": "independent_work",
-      "projectPath": "C:\\Users\\user\\Desktop\\ORIS-11-507\\independent work\\independent_work\\independent_work.csproj",
+      "projectUniqueName": "C:\\Users\\user\\Desktop\\ORIS-11-507\\Samostoyatelnaya rabota\\samostoyatelnaya_rabota\\samostoyatelnaya_rabota.csproj",
+      "projectName": "samostoyatelnaya_rabota",
+      "projectPath": "C:\\Users\\user\\Desktop\\ORIS-11-507\\Samostoyatelnaya rabota\\samostoyatelnaya_rabota\\samostoyatelnaya_rabota.csproj",
       "packagesPath": "C:\\Users\\user\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\user\\Desktop\\ORIS-11-507\\independent work\\independent_work\\obj\\",
+      "outputPath": "C:\\Users\\user\\Desktop\\ORIS-11-507\\Samostoyatelnaya rabota\\samostoyatelnaya_rabota\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\user\\AppData\\Roaming\\NuGet\\NuGet.Config"

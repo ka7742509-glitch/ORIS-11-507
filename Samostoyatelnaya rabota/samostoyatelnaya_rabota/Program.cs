@@ -1,7 +1,7 @@
 ﻿using System.Net;
 using System.Text;
 
-namespace independent_work
+namespace samostoyatelnaya_rabota
 {
     public class TaskItem
     {
