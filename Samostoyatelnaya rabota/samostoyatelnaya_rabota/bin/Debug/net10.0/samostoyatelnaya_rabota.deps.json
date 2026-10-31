@@ -6,15 +6,15 @@
   "compilationOptions": {},
   "targets": {
     ".NETCoreApp,Version=v10.0": {
-      "independent_work/1.0.0": {
+      "samostoyatelnaya_rabota/1.0.0": {
         "runtime": {
-          "independent_work.dll": {}
+          "samostoyatelnaya_rabota.dll": {}
         }
       }
     }
   },
   "libraries": {
-    "independent_work/1.0.0": {
+    "samostoyatelnaya_rabota/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

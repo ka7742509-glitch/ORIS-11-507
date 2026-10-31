@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\ORIS-11-507\Samostoyatelnaya rabota\samostoyatelnaya_rabota\bin\Debug\net10.0\samostoyatelnaya_rabota.exe
+C:\Users\user\Desktop\ORIS-11-507\Samostoyatelnaya rabota\samostoyatelnaya_rabota\bin\Debug\net10.0\samostoyatelnaya_rabota.deps.json
+C:\Users\user\Desktop\ORIS-11-507\Samostoyatelnaya rabota\samostoyatelnaya_rabota\bin\Debug\net10.0\samostoyatelnaya_rabota.runtimeconfig.json
+C:\Users\user\Desktop\ORIS-11-507\Samostoyatelnaya rabota\samostoyatelnaya_rabota\bin\Debug\net10.0\samostoyatelnaya_rabota.dll
+C:\Users\user\Desktop\ORIS-11-507\Samostoyatelnaya rabota\samostoyatelnaya_rabota\bin\Debug\net10.0\samostoyatelnaya_rabota.pdb
+C:\Users\user\Desktop\ORIS-11-507\Samostoyatelnaya rabota\samostoyatelnaya_rabota\obj\Debug\net10.0\samostoyatelnaya_rabota.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\ORIS-11-507\Samostoyatelnaya rabota\samostoyatelnaya_rabota\obj\Debug\net10.0\samostoyatelnaya_rabota.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\ORIS-11-507\Samostoyatelnaya rabota\samostoyatelnaya_rabota\obj\Debug\net10.0\samostoyatelnaya_rabota.AssemblyInfo.cs
+C:\Users\user\Desktop\ORIS-11-507\Samostoyatelnaya rabota\samostoyatelnaya_rabota\obj\Debug\net10.0\samostoyatelnaya_rabota.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\ORIS-11-507\Samostoyatelnaya rabota\samostoyatelnaya_rabota\obj\Debug\net10.0\samostoyatelnaya_rabota.sourcelink.json
+C:\Users\user\Desktop\ORIS-11-507\Samostoyatelnaya rabota\samostoyatelnaya_rabota\obj\Debug\net10.0\samostoyatelnaya_rabota.dll
+C:\Users\user\Desktop\ORIS-11-507\Samostoyatelnaya rabota\samostoyatelnaya_rabota\obj\Debug\net10.0\refint\samostoyatelnaya_rabota.dll
+C:\Users\user\Desktop\ORIS-11-507\Samostoyatelnaya rabota\samostoyatelnaya_rabota\obj\Debug\net10.0\samostoyatelnaya_rabota.pdb
+C:\Users\user\Desktop\ORIS-11-507\Samostoyatelnaya rabota\samostoyatelnaya_rabota\obj\Debug\net10.0\samostoyatelnaya_rabota.genruntimeconfig.cache
+C:\Users\user\Desktop\ORIS-11-507\Samostoyatelnaya rabota\samostoyatelnaya_rabota\obj\Debug\net10.0\ref\samostoyatelnaya_rabota.dll
