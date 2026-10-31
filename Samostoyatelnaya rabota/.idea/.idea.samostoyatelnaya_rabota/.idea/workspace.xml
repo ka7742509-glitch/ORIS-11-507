@@ -10,12 +10,9 @@
   <component name="ChangeListManager">
     <list default="true" id="dfca0a37-6e40-47c3-949e-72c2c73d0a84" name="Изменения" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.samostoyatelnaya_rabota/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.samostoyatelnaya_rabota/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samostoyatelnaya_rabota/bin/Debug/net10.0/samostoyatelnaya_rabota.dll" beforeDir="false" afterPath="$PROJECT_DIR$/samostoyatelnaya_rabota/bin/Debug/net10.0/samostoyatelnaya_rabota.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samostoyatelnaya_rabota/bin/Debug/net10.0/samostoyatelnaya_rabota.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/samostoyatelnaya_rabota/bin/Debug/net10.0/samostoyatelnaya_rabota.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samostoyatelnaya_rabota/obj/Debug/net10.0/apphost.exe" beforeDir="false" afterPath="$PROJECT_DIR$/samostoyatelnaya_rabota/obj/Debug/net10.0/apphost.exe" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/samostoyatelnaya_rabota/obj/Debug/net10.0/samostoyatelnaya_rabota.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/samostoyatelnaya_rabota/obj/Debug/net10.0/samostoyatelnaya_rabota.AssemblyInfo.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/samostoyatelnaya_rabota/obj/Debug/net10.0/samostoyatelnaya_rabota.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/samostoyatelnaya_rabota/obj/Debug/net10.0/samostoyatelnaya_rabota.AssemblyInfoInputs.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/samostoyatelnaya_rabota/obj/rider.project.model.nuget.info" beforeDir="false" afterPath="$PROJECT_DIR$/samostoyatelnaya_rabota/obj/rider.project.model.nuget.info" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/samostoyatelnaya_rabota/readme.md" beforeDir="false" afterPath="$PROJECT_DIR$/samostoyatelnaya_rabota/readme.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,6 +117,8 @@
       <workItem from="1793428949876" duration="1125000" />
       <workItem from="1793430613799" duration="62000" />
       <workItem from="1793430692812" duration="26000" />
+      <workItem from="1793432396915" duration="302000" />
+      <workItem from="1793432713924" duration="9000" />
     </task>
     <servers />
   </component>
