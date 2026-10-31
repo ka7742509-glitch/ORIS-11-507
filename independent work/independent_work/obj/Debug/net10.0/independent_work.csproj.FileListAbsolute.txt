@@ -1,0 +1,15 @@
+C:\Users\user\Desktop\ORIS-11-507\independent work\independent_work\bin\Debug\net10.0\independent_work.exe
+C:\Users\user\Desktop\ORIS-11-507\independent work\independent_work\bin\Debug\net10.0\independent_work.deps.json
+C:\Users\user\Desktop\ORIS-11-507\independent work\independent_work\bin\Debug\net10.0\independent_work.runtimeconfig.json
+C:\Users\user\Desktop\ORIS-11-507\independent work\independent_work\bin\Debug\net10.0\independent_work.dll
+C:\Users\user\Desktop\ORIS-11-507\independent work\independent_work\bin\Debug\net10.0\independent_work.pdb
+C:\Users\user\Desktop\ORIS-11-507\independent work\independent_work\obj\Debug\net10.0\independent_work.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\user\Desktop\ORIS-11-507\independent work\independent_work\obj\Debug\net10.0\independent_work.AssemblyInfoInputs.cache
+C:\Users\user\Desktop\ORIS-11-507\independent work\independent_work\obj\Debug\net10.0\independent_work.AssemblyInfo.cs
+C:\Users\user\Desktop\ORIS-11-507\independent work\independent_work\obj\Debug\net10.0\independent_work.csproj.CoreCompileInputs.cache
+C:\Users\user\Desktop\ORIS-11-507\independent work\independent_work\obj\Debug\net10.0\independent_work.sourcelink.json
+C:\Users\user\Desktop\ORIS-11-507\independent work\independent_work\obj\Debug\net10.0\independent_work.dll
+C:\Users\user\Desktop\ORIS-11-507\independent work\independent_work\obj\Debug\net10.0\refint\independent_work.dll
+C:\Users\user\Desktop\ORIS-11-507\independent work\independent_work\obj\Debug\net10.0\independent_work.pdb
+C:\Users\user\Desktop\ORIS-11-507\independent work\independent_work\obj\Debug\net10.0\independent_work.genruntimeconfig.cache
+C:\Users\user\Desktop\ORIS-11-507\independent work\independent_work\obj\Debug\net10.0\ref\independent_work.dll

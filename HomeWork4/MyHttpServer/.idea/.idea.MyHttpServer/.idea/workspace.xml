@@ -7,7 +7,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a76dc3e7-4259-47f6-a24f-8d1df468a10f" name="Изменения" comment="" />
+    <list default="true" id="a76dc3e7-4259-47f6-a24f-8d1df468a10f" name="Изменения" comment="">
+      <change afterPath="$PROJECT_DIR$/../../independent work/independent_work/independent_work.csproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MiniTemplateEngine/obj/Debug/net10.0/MiniTemplateEngine.AssemblyInfo.cs" beforeDir="false" afterPath="$PROJECT_DIR$/../../MiniTemplateEngine/obj/Debug/net10.0/MiniTemplateEngine.AssemblyInfo.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../MiniTemplateEngine/obj/Debug/net10.0/MiniTemplateEngine.AssemblyInfoInputs.cache" beforeDir="false" afterPath="$PROJECT_DIR$/../../MiniTemplateEngine/obj/Debug/net10.0/MiniTemplateEngine.AssemblyInfoInputs.cache" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -134,6 +138,8 @@
       <workItem from="1792779664036" duration="2513000" />
       <workItem from="1792819656276" duration="56000" />
       <workItem from="1792821382557" duration="944000" />
+      <workItem from="1793427821480" duration="437000" />
+      <workItem from="1793428844835" duration="89000" />
     </task>
     <servers />
   </component>
