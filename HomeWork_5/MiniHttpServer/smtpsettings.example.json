@@ -1,0 +1,8 @@
+{
+  "Host": "smtp.yandex.ru",
+  "Port": 465,
+  "UseSsl": true,
+  "FromAddress": "your_login@yandex.ru",
+  "FromPassword": "APP_PASSWORD_HERE",
+  "ToAddress": "recipient@example.com"
+}
