@@ -1,0 +1,6 @@
+{
+  "Port": 8888,
+  "Path": "",
+  "PublicDirectoryPath": "static",
+  "DefaultPage": "index.html"
+}

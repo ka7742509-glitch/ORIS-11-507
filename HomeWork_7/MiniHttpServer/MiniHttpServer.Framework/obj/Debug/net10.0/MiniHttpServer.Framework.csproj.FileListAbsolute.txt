@@ -1,0 +1,17 @@
+C:\Users\ka774\Desktop\ORIS-11-507\HomeWork_7\MiniHttpServer\MiniHttpServer.Framework\bin\Debug\net10.0\MiniHttpServer.Framework.deps.json
+C:\Users\ka774\Desktop\ORIS-11-507\HomeWork_7\MiniHttpServer\MiniHttpServer.Framework\bin\Debug\net10.0\MiniHttpServer.Framework.dll
+C:\Users\ka774\Desktop\ORIS-11-507\HomeWork_7\MiniHttpServer\MiniHttpServer.Framework\bin\Debug\net10.0\MiniHttpServer.Framework.pdb
+C:\Users\ka774\Desktop\ORIS-11-507\HomeWork_7\MiniHttpServer\MiniHttpServer.Framework\bin\Debug\net10.0\MiniHttpServer.HtmlTemplating.dll
+C:\Users\ka774\Desktop\ORIS-11-507\HomeWork_7\MiniHttpServer\MiniHttpServer.Framework\bin\Debug\net10.0\MiniHttpServer.HtmlTemplating.pdb
+C:\Users\ka774\Desktop\ORIS-11-507\HomeWork_7\MiniHttpServer\MiniHttpServer.Framework\bin\Debug\net10.0\MiniHttpServer.HtmlTemplating.xml
+C:\Users\ka774\Desktop\ORIS-11-507\HomeWork_7\MiniHttpServer\MiniHttpServer.Framework\obj\Debug\net10.0\MiniHttpServer.Framework.csproj.AssemblyReference.cache
+C:\Users\ka774\Desktop\ORIS-11-507\HomeWork_7\MiniHttpServer\MiniHttpServer.Framework\obj\Debug\net10.0\MiniHttpServer.Framework.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ka774\Desktop\ORIS-11-507\HomeWork_7\MiniHttpServer\MiniHttpServer.Framework\obj\Debug\net10.0\MiniHttpServer.Framework.AssemblyInfoInputs.cache
+C:\Users\ka774\Desktop\ORIS-11-507\HomeWork_7\MiniHttpServer\MiniHttpServer.Framework\obj\Debug\net10.0\MiniHttpServer.Framework.AssemblyInfo.cs
+C:\Users\ka774\Desktop\ORIS-11-507\HomeWork_7\MiniHttpServer\MiniHttpServer.Framework\obj\Debug\net10.0\MiniHttpServer.Framework.csproj.CoreCompileInputs.cache
+C:\Users\ka774\Desktop\ORIS-11-507\HomeWork_7\MiniHttpServer\MiniHttpServer.Framework\obj\Debug\net10.0\MiniHttpServer.Framework.sourcelink.json
+C:\Users\ka774\Desktop\ORIS-11-507\HomeWork_7\MiniHttpServer\MiniHttpServer.Framework\obj\Debug\net10.0\MiniHttp.D7E1F248.Up2Date
+C:\Users\ka774\Desktop\ORIS-11-507\HomeWork_7\MiniHttpServer\MiniHttpServer.Framework\obj\Debug\net10.0\MiniHttpServer.Framework.dll
+C:\Users\ka774\Desktop\ORIS-11-507\HomeWork_7\MiniHttpServer\MiniHttpServer.Framework\obj\Debug\net10.0\refint\MiniHttpServer.Framework.dll
+C:\Users\ka774\Desktop\ORIS-11-507\HomeWork_7\MiniHttpServer\MiniHttpServer.Framework\obj\Debug\net10.0\MiniHttpServer.Framework.pdb
+C:\Users\ka774\Desktop\ORIS-11-507\HomeWork_7\MiniHttpServer\MiniHttpServer.Framework\obj\Debug\net10.0\ref\MiniHttpServer.Framework.dll

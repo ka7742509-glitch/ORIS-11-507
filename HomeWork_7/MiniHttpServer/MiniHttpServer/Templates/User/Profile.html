@@ -1,0 +1,32 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <title>Профиль пользователя</title>
+</head>
+<body>
+<h1>Профиль пользователя</h1>
+<p>Имя: ${Name}</p>
+<p>Возраст: ${Age}</p>
+<p>Email: ${Email}</p>
+
+$if(IsActive)
+<p>Статус: активен</p>
+$else
+<p>Статус: неактивен</p>
+$endif
+
+$if(Age >= 18)
+<p>Доступ разрешён</p>
+$else
+<p>Доступ запрещён</p>
+$endif
+
+<h2>Книги</h2>
+<ul>
+    $foreach(var book in Books)
+    <li>${book.Title} — ${book.Author}</li>
+    $endfor
+</ul>
+</body>
+</html>

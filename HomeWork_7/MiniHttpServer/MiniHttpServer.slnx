@@ -1,0 +1,5 @@
+<Solution>
+  <Project Path="MiniHttpServer.Framework/MiniHttpServer.Framework.csproj" />
+  <Project Path="MiniHttpServer.HtmlTemplating/MiniHttpServer.HtmlTemplating.csproj" />
+  <Project Path="MiniHttpServer/MiniHttpServer.csproj" />
+</Solution>

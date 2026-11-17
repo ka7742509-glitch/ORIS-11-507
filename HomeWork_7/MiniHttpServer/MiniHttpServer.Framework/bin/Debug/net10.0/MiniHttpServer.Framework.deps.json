@@ -1,0 +1,39 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v10.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v10.0": {
+      "MiniHttpServer.Framework/1.0.0": {
+        "dependencies": {
+          "MiniHttpServer.HtmlTemplating": "1.0.0"
+        },
+        "runtime": {
+          "MiniHttpServer.Framework.dll": {}
+        }
+      },
+      "MiniHttpServer.HtmlTemplating/1.0.0": {
+        "runtime": {
+          "MiniHttpServer.HtmlTemplating.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "MiniHttpServer.Framework/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "MiniHttpServer.HtmlTemplating/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

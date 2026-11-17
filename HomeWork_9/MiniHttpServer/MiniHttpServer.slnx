@@ -1,0 +1,9 @@
+<Solution>
+  <Project Path="MiniHttpServer.Framework.UnitTests/MiniHttpServer.Framework.UnitTests.csproj" />
+  <Project Path="MiniHttpServer.Framework/MiniHttpServer.Framework.csproj" />
+  <Project Path="MiniHttpServer.HtmlTemplating.UnitTests/MiniHttpServer.HtmlTemplating.UnitTests.csproj" />
+  <Project Path="MiniHttpServer.HtmlTemplating/MiniHttpServer.HtmlTemplating.csproj" />
+  <Project Path="MiniHttpServer.ORM.UnitTests/MiniHttpServer.ORM.UnitTests.csproj" />
+  <Project Path="MiniHttpServer.ORM/MiniHttpServer.ORM.csproj" />
+  <Project Path="MiniHttpServer/MiniHttpServer.csproj" />
+</Solution>

@@ -1,0 +1,248 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Getting started | Knowledge Base</title>
+    <link rel="icon" type="image/svg+xml" href="img/favicon.svg">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+    <div class="container topbar__inner">
+        <a class="brand" href="#">
+            <img src="logo.svg" alt="Knowledge — home">
+        </a>
+        <nav class="topnav">
+            <a href="#">Document</a>
+            <a href="#">Dropdown
+                <svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="m6 9 6 6 6-6"/></svg>
+            </a>
+            <a href="#">Contact</a>
+        </nav>
+        <form class="search" role="search">
+            <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round">
+                <circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/>
+            </svg>
+            <input type="search" placeholder="Search" aria-label="Search">
+        </form>
+    </div>
+</header>
+
+<div class="container layout">
+
+    <aside class="sidebar">
+        <nav class="menu">
+            <p class="menu__title">Introduction</p>
+            <a href="#">Overview</a>
+            <a href="#" class="is-active">Getting started</a>
+            <a href="#">Installation</a>
+
+            <p class="menu__title">Core concepts</p>
+            <a href="#">Understanding flow</a>
+            <a href="#">Predicting user journey</a>
+            <a href="#">Basics of design</a>
+            <a href="#">Introduction to development</a>
+            <a href="#">The load effect</a>
+
+            <p class="menu__title">Advanced guides</p>
+            <a href="#">Writing plugins</a>
+            <a href="#">Neuralink integration</a>
+            <a href="#">Temporal paradoxes</a>
+            <a href="#">Testing blocks</a>
+            <a href="#">Compile-time caching</a>
+            <a href="#">Predictive data generation</a>
+
+            <p class="menu__title">API reference</p>
+            <a href="#">FetchAdvance.load()</a>
+            <a href="#">GetAdvance.get()</a>
+            <a href="#">UploadAdvance.load()</a>
+            <a href="#">LoadAdvance.push()</a>
+
+            <p class="menu__title">Contributing</p>
+            <a href="#">How to contribute</a>
+            <a href="#">Architecture guide</a>
+            <a href="#">Design principles</a>
+        </nav>
+    </aside>
+
+    <main class="content">
+        <article class="doc">
+            <p class="overline">Introduction</p>
+            <h1 id="getting-started">Getting started</h1>
+
+            <div class="author">
+                <img class="author__avatar" src="joshua.jpg" alt="Joshua Birdman">
+                <div class="author__info">
+                    <p class="author__name">Joshua Birdman</p>
+                    <p class="author__dates">Created: May 06, 2023 - Updated: Apr 26, 2023</p>
+                </div>
+                <button class="btn btn--soft" type="button">Follow</button>
+            </div>
+            <p class="lead">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur excepteur culpa qui officia deserunt.</p>
+
+            <h2 id="quick-start">Quick start</h2>
+            <p>Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur.</p>
+
+            <h3 id="installing">Installing dependencies</h3>
+            <p>Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.</p>
+
+            <pre class="code"><code>plugins: [
+  require('@tailwindcss/forms'),
+  require('@tailwindcss/typography'),
+]</code></pre>
+
+            <p>Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.</p>
+
+            <h3 id="configuring">Configuring the library</h3>
+            <p>Sit commodi iste iure molestias qui amet voluptatem sed quaerat. Nostrum aut pariatur. Sint ipsa praesentium dolor error cumque velit tenetur quaerat exercitationem. Consequatur et cum atque mollitia qui quia necessitatibus.</p>
+            <p>Possimus saepe veritatis sint nobis et quam eos. Architecto consequatur odit perferendis fuga eveniet possimus rerum cumque. Ea deleniti voluptatum deserunt voluptatibus ut non iste. Provident nam asperiores vel laboriosam omnis ducimus enim nesciunt quaerat. Minus tempora cupiditate est quod.</p>
+
+            <div class="callout callout--warning">
+                <p class="callout__title">Consequatur et cum atque mollitia</p>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur culpa qui officia deserunt mollit laborum.</p>
+            </div>
+            <div class="callout callout--info">
+                <p class="callout__title">Consequatur et cum atque mollitia</p>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur culpa qui officia deserunt mollit laborum.</p>
+            </div>
+            <div class="callout callout--success">
+                <p class="callout__title">Consequatur et cum atque mollitia</p>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur culpa qui officia deserunt mollit laborum.</p>
+            </div>
+            <div class="callout callout--danger">
+                <p class="callout__title">Consequatur et cum atque mollitia</p>
+                <p>Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur culpa qui officia deserunt mollit laborum.</p>
+            </div>
+
+            <hr>
+
+            <h2 id="basic-usage">Basic usage</h2>
+            <p>Praesentium laudantium magni. Consequatur reiciendis aliquid nihil iusto ut in et. Quisquam ut et aliquid occaecati. Culpa veniam aut et voluptates amet perspiciatis. Qui exercitationem in qui. Vel qui dignissimos sit quae distinctio.</p>
+
+            <h3 id="first-cache">Your first cache</h3>
+            <p>Minima vel non iste debitis. Consequatur repudiandae et quod accusamus sit molestias consequatur aperiam. Et sequi ipsa eum voluptatibus ipsam. Et quisquam ut.</p>
+            <p>Qui quae esse aspernatur fugit possimus. Quam sed molestiae temporibus. Eum perferendis dignissimos provident ea et. Et repudiandae quasi accusamus consequatur dolore nobis. Quia reiciendis necessitatibus a blanditiis iste quia. Ut quis et amet praesentium sapiente.</p>
+
+            <h4 id="change-password">Change your password</h4>
+            <ol class="steps">
+                <li>Click your team name to open the Team Menu.</li>
+                <li>Select Profile &amp; account. This will open your profile on the right side of your screen.</li>
+                <li>Under your name, click Account Settings. This will open your Account settings.</li>
+                <li>By Password, click expand.</li>
+                <li>Enter your Current Password, and then a New Password.</li>
+                <li>Click Save Password.</li>
+            </ol>
+            <p>Ea est autem fugiat velit esse a alias earum. Dolore non amet soluta eos libero est. Consequatur qui aliquam qui odit eligendi ut impedit illo dignissimos.</p>
+            <p>Ut dolore qui aut nam. Natus temporibus nisi voluptatum labore est ex error vel officia. Vero repellendus ut. Suscipit voluptate et placeat. Eius quo corporis ab et consequatur quisquam. Nihil officia facere dolorem occaecati alias deleniti deleniti in.</p>
+
+            <table class="table">
+                <thead>
+                <tr><th>Name</th><th>Title</th><th>Email</th><th>Role</th></tr>
+                </thead>
+                <tbody>
+                <tr><td>John Smith</td><td>Front-end Developer</td><td>johnsmith@example.com</td><td>Member</td></tr>
+                <tr><td>John Smith</td><td>Front-end Developer</td><td>johnsmith@example.com</td><td>Member</td></tr>
+                <tr><td>John Smith</td><td>Front-end Developer</td><td>johnsmith@example.com</td><td>Member</td></tr>
+                </tbody>
+            </table>
+
+            <h3 id="middleware">Adding middleware</h3>
+            <p>Officia nobis tempora maiores id iusto magni reprehenderit velit. Quae dolores inventore maiores perspiciatis aut. Qui sequi officia quasi rem officiis officiis. Nesciunt ut cupiditate. Sunt aliquid explicabo enim ipsa eum recusandae. Vitae sunt eligendi et non beatae minima aut.</p>
+            <p>Harum perferendis aut qui quibusdam tempore laboriosam voluptatum qui sed. Amet error amet totam exercitationem aut corporis accusantium dolorum. Perspiciatis aut animi et. Sed unde error aut et rerum.</p>
+            <p>Ut quo libero aperiam mollitia est repudiandae quaerat corrupti explicabo. Voluptas accusantium sed et doloribus voluptatem fugiat a mollitia. Numquam est magnam magnam asperiores fugiat. Soluta et fuga amet alias temporibus quasi veritatis. Laudantium voluptas perspiciatis doloribus quasi facere. Eveniet deleniti veniam et quia veritatis minus veniam perspiciatis.</p>
+
+            <hr>
+
+            <h2 id="getting-help">Getting help</h2>
+            <p>Consequuntur et aut quisquam et qui consequatur eligendi. Necessitatis dolorem sit. Excepturi cumque quibusdam soluta ullam rerum voluptatibus. Porro illo sequi consequatur nisi numquam nisi autem. Ut necessitatis aut. Veniam ipsa voluptatem sed.</p>
+
+            <h3 id="submit-issue">Submit an issue</h3>
+            <p>Inventore et aut minus ut voluptatem nihil commodi doloribus consequatur. Facilis perferendis nihil sit aut aspernatur iure ut dolores et. Aspernatur odit dignissimos. Aut qui est sint sint.</p>
+            <p>Facere aliquam qui. Dolorem officia ipsam adipisci qui molestiae. Error voluptatem reprehenderit ex.</p>
+            <p>Consequatur enim quia maiores aperiam et ipsum dicta. Quam ut sit facere sit quae. Eligendi veritatis aut ut veritatis iste ut adipisci illo.</p>
+
+            <h3 id="join-community">Join the community</h3>
+            <p>Praesentium facilis iste aliquid quo quia a excepturi. Fuga reprehenderit illo sequi voluptatem voluptatem omnis. Id quia consequatur rerum consectetur eligendi et omnis. Voluptates iusto labore possimus provident praesentium id vel harum quisquam. Voluptatem provident corrupti.</p>
+            <p>Eum et ut. Qui facilis est ipsa. Non facere quia sequi commodi autem. Dicta autem sit sequi omnis impedit. Eligendi amet dolorum magnam repudiandae in a.</p>
+            <p>Molestiae iusto ut exercitationem dolorem unde iusto tempora atque nihil. Voluptatem velit facere laboriosam nobis ea. Consequatur rerum velit ipsum ipsam. Et qui saepe consequatur minima laborum tempore voluptatum et. Quia eveniet eaque sequi consequatur nihil eos.</p>
+
+            <nav class="pager">
+                <a href="#">
+                    <span class="pager__label">Previous</span>
+                    <span class="pager__link">← Getting started</span>
+                </a>
+                <a class="pager__next" href="#">
+                    <span class="pager__label">Next</span>
+                    <span class="pager__link">Understanding caching →</span>
+                </a>
+            </nav>
+
+            <section class="helpful">
+                <h3>Was this article helpful?</h3>
+                <div class="helpful__buttons">
+                    <button class="btn btn--soft" type="button">✓ Yes</button>
+                    <button class="btn btn--soft" type="button">✕ No</button>
+                </div>
+                <p>Have more questions? <a href="#">Submit a request.</a></p>
+            </section>
+        </article>
+    </main>
+    <aside class="toc">
+        <p class="toc__title">On this page</p>
+        <nav class="toc__list">
+            <a href="#quick-start">Quick start</a>
+            <a href="#installing" class="toc__sub">Installing dependencies</a>
+            <a href="#configuring" class="toc__sub">Configuring the library</a>
+            <a href="#basic-usage">Basic usage</a>
+            <a href="#first-cache" class="toc__sub">Your first cache</a>
+            <a href="#middleware" class="toc__sub">Adding middleware</a>
+            <a href="#getting-help">Getting help</a>
+            <a href="#submit-issue" class="toc__sub">Submit an issue</a>
+            <a href="#join-community" class="toc__sub">Join the community</a>
+        </nav>
+    </aside>
+</div>
+
+<footer class="footer">
+    <div class="container footer__grid">
+        <div class="footer__col">
+            <p class="footer__title">Solutions</p>
+            <a href="#">Marketing</a><a href="#">Analytics</a><a href="#">Commerce</a><a href="#">Insights</a>
+        </div>
+        <div class="footer__col">
+            <p class="footer__title">Support</p>
+            <a href="#">Pricing</a><a href="#">Documentation</a><a href="#">Guides</a><a href="#">API Status</a>
+        </div>
+        <div class="footer__col">
+            <p class="footer__title">Company</p>
+            <a href="#">About</a><a href="#">Blog</a><a href="#">Jobs</a><a href="#">Press</a>
+        </div>
+        <div class="footer__col">
+            <p class="footer__title">Legal</p>
+            <a href="#">Claim</a><a href="#">Privacy</a><a href="#">Terms</a>
+        </div>
+        <div class="footer__col footer__col--wide">
+            <p class="footer__title">Subscribe to our newsletter</p>
+            <p class="footer__text">The latest news, articles, and resources, sent to your inbox weekly.</p>
+            <form class="subscribe">
+                <input type="email" placeholder="Enter your email" aria-label="Email">
+                <button class="btn btn--solid" type="submit">Subscribe</button>
+            </form>
+        </div>
+    </div>
+    <div class="container footer__bottom">
+        <p>© 2020 Awesome Company, Ltd. All rights reserved.</p>
+        <div class="socials">
+            <a href="#" aria-label="Twitter"><img src="https://cdn.simpleicons.org/twitter/94a3b8" width="20" height="20" alt=""></a>
+            <a href="#" aria-label="GitHub"><img src="https://cdn.simpleicons.org/github/94a3b8" width="20" height="20" alt=""></a>
+            <a href="#" aria-label="YouTube"><img src="https://cdn.simpleicons.org/youtube/94a3b8" width="20" height="20" alt=""></a>
+            <a href="#" aria-label="Facebook"><img src="https://cdn.simpleicons.org/facebook/94a3b8" width="20" height="20" alt=""></a>
+            <a href="#" aria-label="Instagram"><img src="https://cdn.simpleicons.org/instagram/94a3b8" width="20" height="20" alt=""></a>
+        </div>
+    </div>
+</footer>
+
+</body>
+</html>
