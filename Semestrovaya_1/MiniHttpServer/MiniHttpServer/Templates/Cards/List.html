@@ -1,0 +1,187 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>${Set.Name} | ${Set.CardCount} карт</title>
+    <link rel="stylesheet" href="/css/site.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="site-header__inner">
+        <a href="/cards/list" class="site-header__logo">
+            <img src="/images/ui/gatherer_logo.svg" alt="Gatherer" class="site-header__logo-img">
+        </a>
+        <form class="site-header__search" action="/cards/list" method="get">
+            <input type="text" name="q" value="${Search}" placeholder="Search Magic Multiverse" class="site-header__search-input">
+        </form>
+        <nav class="site-header__nav">
+            <a href="#" class="site-header__nav-link"><img src="/images/ui/search.svg" class="site-header__nav-icon" alt="">Advanced Search</a>
+            <a href="#" class="site-header__nav-link"><img src="/images/ui/sets.svg" class="site-header__nav-icon" alt="">Sets</a>
+            <a href="#" class="site-header__nav-link"><img src="/images/ui/random.svg" class="site-header__nav-icon" alt="">Random</a>
+            <a href="#" class="site-header__nav-link"><img src="/images/ui/syntax.svg" class="site-header__nav-icon" alt="">Syntax</a>
+        </nav>
+    </div>
+</header>
+
+<main class="main">
+    <div class="main__bg"></div>
+    <div class="main__overlay"></div>
+
+    <div class="container">
+        <div class="set-header">
+            <div class="set-header__title">
+                <img src="/images/ui/set-hob.png" alt="${Set.Code}" class="set-header__icon">
+                <span>${Set.Name} (${Set.Code}) | ${Set.CardCount} Cards</span>
+            </div>
+            <div class="set-header__date">Release date: 2026-07-31</div>
+        </div>
+
+        <div class="controls">
+            <div class="controls__left">
+                <select class="controls__select" aria-label="Display">
+                    <option selected>Display: Card Small</option>
+                </select>
+                <select class="controls__select" aria-label="Sorted By" onchange="window.location.href='/cards/list?sort='+this.value+'&order=${Order}&q=${Search}'">
+                    <option value="name" $if(Sort == "name")selected$endif>Card Name</option>
+                    <option value="set" $if(Sort == "set")selected$endif>Set</option>
+                    <option value="color" $if(Sort == "color")selected$endif>Card Color</option>
+                    <option value="rarity" $if(Sort == "rarity")selected$endif>Rarity</option>
+                    <option value="mana" $if(Sort == "mana")selected$endif>Mana Cost</option>
+                    <option value="type" $if(Sort == "type")selected$endif>Type</option>
+                    <option value="power" $if(Sort == "power")selected$endif>Power</option>
+                    <option value="toughness" $if(Sort == "toughness")selected$endif>Toughness</option>
+                    <option value="artist" $if(Sort == "artist")selected$endif>Artist</option>
+                    <option value="number" $if(Sort == "number")selected$endif>Collector Number</option>
+                </select>
+                <select class="controls__select" aria-label="Order" onchange="window.location.search='?sort=${Sort}&order='+this.value+'&q=${Search}'">
+                    $if(Order == "asc")
+                    <option value="asc" selected>Ascending</option>
+                    $else
+                    <option value="asc">Ascending</option>
+                    $endif
+                    $if(Order == "desc")
+                    <option value="desc" selected>Descending</option>
+                    $else
+                    <option value="desc">Descending</option>
+                    $endif
+                </select>
+            </div>
+            <div class="controls__right">Showing ${From}-${To} of ${TotalCount} cards:</div>
+        </div>
+
+        <div class="grid">
+            $foreach(var card in Cards)
+            <a href="/cards/details?id=${card.Id}" class="card">
+                <img src="/images/cards/${card.NumberPadded}.webp" alt="${card.Name}" class="card__image" loading="lazy">
+            </a>
+            $endfor
+        </div>
+
+        $if(TotalPages > 1)
+        <div class="pagination">
+            $foreach(var link in PageLinks)
+            $if(link.Disabled)
+            <span class="pagination__link pagination__link--disabled">${link.Label}</span>
+            $else
+            $if(link.IsActive)
+            <a href="${link.Url}" class="pagination__link pagination__link--active">${link.Label}</a>
+            $else
+            <a href="${link.Url}" class="pagination__link">${link.Label}</a>
+            $endif
+            $endif
+            $endfor
+
+            <form class="pagination__goto" action="/cards/list" method="get">
+                <input type="hidden" name="sort" value="${Sort}">
+                <input type="hidden" name="order" value="${Order}">
+                <input type="hidden" name="q" value="${Search}">
+                <span>Go to</span>
+                <input type="number" name="page" min="1" max="${TotalPages}" class="pagination__input">
+            </form>
+        </div>
+        $endif
+    </div>
+</main>
+
+<footer class="site-footer">
+    <div class="site-footer__banners">
+        <img src="/images/ui/banner-secret-lair.webp" alt="" class="site-footer__banner">
+        <img src="/images/ui/banner-star-trek.jpg" alt="" class="site-footer__banner">
+    </div>
+    <div class="container site-footer__content">
+        <div class="site-footer__columns">
+            <div class="site-footer__column">
+                <h4 class="site-footer__heading">Find</h4>
+                <ul class="site-footer__list">
+                    <li><a href="#">Articles</a></li>
+                    <li><a href="#">Club support</a></li>
+                    <li><a href="#">Digital Books</a></li>
+                    <li><a href="#">Formats</a></li>
+                    <li><a href="#">Rules</a></li>
+                    <li><a href="#">Military Support</a></li>
+                </ul>
+            </div>
+            <div class="site-footer__column">
+                <h4 class="site-footer__heading">Company</h4>
+                <ul class="site-footer__list">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Accounts</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Wizards Play Network</a></li>
+                    <li><a href="#">Affiliate Program Disclosure</a></li>
+                </ul>
+            </div>
+            <div class="site-footer__column">
+                <h4 class="site-footer__heading">Magic</h4>
+                <ul class="site-footer__list">
+                    <li><a href="#">Magic: The Gathering</a></li>
+                    <li><a href="#">Magic Arena</a></li>
+                    <li><a href="#">Magic.gg</a></li>
+                    <li><a href="#">Store & Events Locator</a></li>
+                    <li><a href="#">Secret Lair</a></li>
+                    <li><a href="#">SpellTable</a></li>
+                </ul>
+            </div>
+            <div class="site-footer__column">
+                <h4 class="site-footer__heading">Brands</h4>
+                <ul class="site-footer__list">
+                    <li><a href="#">Dungeons & Dragons</a></li>
+                    <li><a href="#">Duel Masters</a></li>
+                    <li><a href="#">Magic</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="site-footer__logos">
+            <img src="/images/ui/wotc.svg" alt="Wizards of the Coast" class="site-footer__logo">
+            <img src="/images/ui/hasbro.svg" alt="Hasbro" class="site-footer__logo">
+            <img src="/images/ui/esrb.png" alt="ESRB" class="site-footer__logo">
+            <img src="/images/ui/teen-esrb.png" alt="Teen" class="site-footer__logo">
+        </div>
+        <div class="site-footer__legal">
+            <a href="#">Terms</a>
+            <a href="#">Code of Conduct</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Cookie Policy</a>
+            <a href="#">Customer Support</a>
+            <a href="#">Your Privacy Choices</a>
+            <a href="#">Fan Content Policy</a>
+            <a href="#">Attribution</a>
+            <a href="#">Accessibility Statement</a>
+            <a href="#">Do Not Sell or Share My Personal Information</a>
+            <a href="#">Changelog</a>
+            <select class="site-footer__lang">
+                <option>English</option>
+            </select>
+        </div>
+        <div class="site-footer__copy">
+            Gatherer provides the official and most up-to-date card text and rulings directly from Wizards of the Coast.<br>
+            © 1993-2026 Wizards of the Coast LLC, a subsidiary of Hasbro, Inc. All Rights Reserved.
+        </div>
+    </div>
+</footer>
+
+<script src="/js/search.js"></script>
+</body>
+</html>

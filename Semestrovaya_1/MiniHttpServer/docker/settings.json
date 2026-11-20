@@ -1,0 +1,13 @@
+{
+  "Port": 8888,
+  "Path": "",
+  "Host": "+",
+  "PublicDirectoryPath": "static",
+  "DefaultPage": "index.html",
+  "HomePagePath": "/cards/list",
+  "LoginPagePath": "/auth/login",
+  "ConnectionString": "Host=db;Port=5432;Database=oriscards;Username=postgres;Password=1234;Timeout=5",  
+  "AdminLogin": "admin",
+  "AdminPasswordHash": "240BE518FABD2724DDB6F04EEB1DA5967448D7E831C08C8FA822809F74C720A9",
+  "AdminDisplayName": "Администратор"
+}

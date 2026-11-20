@@ -1,0 +1,6 @@
+**/bin/
+**/obj/
+.git/
+.vs/
+**/*.user
+hob_cards.json

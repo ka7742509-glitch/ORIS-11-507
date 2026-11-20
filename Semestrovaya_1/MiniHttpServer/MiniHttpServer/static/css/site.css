@@ -1,0 +1,1035 @@
+@font-face {
+    font-family: 'GothamNarrow';
+    src: url('/fonts/GothamNarrow-Medium.woff2') format('woff2');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Beleren';
+    src: url('/fonts/Beleren-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Bebas Neue';
+    src: url('/fonts/BebasNeue-Regular.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+*, *::before, *::after {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: 'GothamNarrow', 'Gotham Narrow', Arial, sans-serif;
+    font-weight: 400;
+    color: #fff;
+    background-color: #0a0014;
+    min-height: 100vh;
+    line-height: 1.5;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    display: block;
+}
+
+.site-header {
+    position: static;
+    background: #000;
+    height: 6.4rem;
+    border-bottom: none;
+}
+
+.site-header__inner {
+    max-width: 132rem;
+    margin: 0 auto;
+    padding: 0 2.4rem;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 2.4rem;
+}
+
+.site-header__logo-img {
+    height: 3.2rem;
+}
+
+.site-header__search {
+    position: relative;
+    flex: 1;
+    max-width: 50rem;
+}
+
+.site-header__search-input {
+    width: 100%;
+    height: 4rem;
+    padding: 0 1.2rem 0 4rem;
+    background: url('/images/ui/search.svg') no-repeat 1.2rem center,
+    linear-gradient(90deg, #2b2140 0%, #000000 100%);
+    background-size: 1.6rem, 100% 100%;
+    border: none;
+    border-radius: 0.6rem;
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: inherit;
+}
+
+.site-header__search-input::placeholder {
+    color: #fff;
+}
+
+.site-header__search-input:focus {
+    outline: none;
+    border: none;
+}
+
+.site-header__nav {
+    margin-left: auto;
+    display: flex;
+    gap: 0;
+    font-size: 1.2rem;
+    font-weight: 500;
+}
+
+.site-header__nav-link {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    padding: 0 1.8rem;
+    color: #fff;
+}
+
+.site-header__nav-link + .site-header__nav-link {
+    border-left: 1px solid #2a2a3a;
+}
+
+.site-header__nav-icon {
+    width: 1.6rem;
+    height: 1.6rem;
+}
+
+.main {
+    position: relative;
+    min-height: 100dvh;
+    padding: 2.4rem 0 4.8rem;
+}
+
+.main__bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: url('/images/ui/results-bg.webp') center top / cover no-repeat;
+    z-index: -2;
+}
+
+.main__overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: linear-gradient(180deg, rgba(0,0,0,0.8) 0%, rgba(33,32,32,0.8) 100%);
+    z-index: -1;
+}
+
+.container {
+    max-width: 132rem;
+    margin: 0 auto;
+    padding: 0 2.4rem;
+}
+
+.set-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1.2rem;
+    border-bottom: none;
+}
+
+.set-header__title {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.4rem;
+    font-weight: 400;
+    line-height: 4.4rem;
+    letter-spacing: 0.025em;
+    text-transform: uppercase;
+    color: #fff;
+}
+
+.set-header__icon {
+    height: 4.4rem;
+    filter: invert(1) brightness(1.6);
+}
+
+.set-header__date {
+    font-size: 1.6rem;
+    color: #dad9db;
+}
+
+.controls {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 2.8rem;
+    padding-bottom: 1.2rem;
+    border-bottom: 1px solid #434472;
+    font-size: 1.5rem;
+}
+
+.controls__left {
+    display: flex;
+    gap: 1.2rem;
+}
+
+.controls__select {
+    height: 4rem;
+    padding: 0 3rem 0 1.2rem;
+    background: #161621 url('/images/ui/chevron-down.svg') no-repeat right 1rem center;
+    background-size: 1.2rem;
+    border: 1px solid #434472;
+    border-radius: 0.4rem;
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: inherit;
+    cursor: pointer;
+    appearance: none;
+}
+
+.controls__select:focus {
+    outline: none;
+    border-color: #8257ed;
+}
+
+.controls__select option {
+    background: #2a2a3e;
+    color: #fff;
+}
+
+.controls__right {
+    font-size: 1.6rem;
+    color: #dad9db;
+}
+
+.grid {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 2.4rem;
+    margin-bottom: 4rem;
+}
+
+.card {
+    display: block;
+    position: relative;
+    aspect-ratio: 5 / 7;
+    border-radius: 6% / 3.5%;
+    overflow: hidden;
+    filter: drop-shadow(0 0 0.4rem rgba(252,250,250,0.35));
+}
+
+.card:hover {
+    text-decoration: none;
+}
+
+.card__image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 6% / 3.5%;
+}
+
+.pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.8rem;
+    margin-bottom: 4.8rem;
+    font-size: 1.5rem;
+}
+
+.pagination__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 4rem;
+    height: 4rem;
+    padding: 0 1rem;
+    background: #161621;
+    border: 1px solid #434472;
+    border-radius: 0.4rem;
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 600;
+    transition: background 0.15s ease;
+}
+
+.pagination__link:hover {
+    background: #252435;
+    text-decoration: none;
+}
+
+.pagination__link--active {
+    background: #5d5fc7;
+    border-color: #5d5fc7;
+}
+
+.pagination__link--disabled {
+    opacity: 0.35;
+    pointer-events: none;
+}
+
+.pagination__goto {
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    margin-left: 1.2rem;
+    padding-left: 2.4rem;
+    border-left: 1px solid #434472;
+}
+
+.pagination__input {
+    width: 6.5rem;
+    height: 4rem;
+    padding: 0 1rem;
+    background: #161621;
+    border: 1px solid #434472;
+    border-radius: 0.4rem;
+    color: #fff;
+    font-size: 1.5rem;
+    font-family: inherit;
+    text-align: center;
+}
+
+.pagination__input:focus {
+    outline: none;
+    border-color: #8257ed;
+}
+
+.pagination__input::-webkit-outer-spin-button,
+.pagination__input::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+.pagination__input {
+    -moz-appearance: textfield;
+    appearance: textfield;
+}
+
+.site-footer {
+    background: #000;
+    padding: 4.8rem 0 2.4rem;
+    border-top: 1px solid #434472;
+}
+
+.site-footer__banners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.2rem;
+    margin-bottom: 4.8rem;
+}
+
+.site-footer__banner {
+    max-width: 114rem;
+    width: 100%;
+}
+
+.site-footer__columns {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 3.2rem;
+    margin-bottom: 3.2rem;
+}
+
+.site-footer__heading {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.8rem;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    margin-bottom: 1.2rem;
+    padding-bottom: 0.8rem;
+    border-bottom: 2px solid #ff6000;
+    display: inline-block;
+}
+
+.site-footer__list {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+    font-size: 1.4rem;
+}
+
+.site-footer__list a {
+    color: #dad9db;
+}
+
+.site-footer__list a:hover {
+    color: #fff;
+}
+
+.site-footer__logos {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3.2rem;
+    margin-bottom: 3.2rem;
+    padding-bottom: 3.2rem;
+    border-bottom: 1px solid #434472;
+}
+
+.site-footer__logo {
+    height: 4rem;
+}
+
+.site-footer__legal {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 2rem;
+    font-size: 1.2rem;
+    text-transform: uppercase;
+    margin-bottom: 2.4rem;
+}
+
+.site-footer__legal a {
+    color: #dad9db;
+}
+
+.site-footer__lang {
+    height: 3rem;
+    padding: 0 2.4rem 0 1rem;
+    background: #161621;
+    border: 1px solid #434472;
+    border-radius: 0.3rem;
+    color: #fff;
+    font-size: 1.2rem;
+    font-family: inherit;
+    cursor: pointer;
+    appearance: none;
+}
+
+.site-footer__copy {
+    text-align: center;
+    font-size: 1.2rem;
+    color: #828282;
+    line-height: 1.6;
+}
+
+.card-detail {
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    gap: 4.8rem;
+    margin-bottom: 4.8rem;
+}
+
+.card-detail__image {
+    max-width: 32rem;
+}
+
+.card-detail__img {
+    width: 100%;
+    border-radius: 6% / 3.5%;
+    filter: drop-shadow(0 0 0.4rem rgba(252,250,250,0.35));
+}
+
+.card-detail__info {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.info-row {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+}
+
+.info-row--split {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2.4rem;
+}
+
+.info-row__label {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #828282;
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+}
+
+.info-row__value {
+    font-size: 1.6rem;
+    color: #fff;
+    line-height: 1.5;
+}
+
+.info-row__value--title {
+    font-family: 'Beleren', sans-serif;
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.info-row__value--rules {
+    white-space: pre-line;
+}
+
+.info-row__value--flavor {
+    font-style: italic;
+    color: #dad9db;
+}
+
+.info-row__value--link {
+    color: #abc4e9;
+    cursor: pointer;
+}
+
+.info-row__value--link:hover {
+    text-decoration: underline;
+}
+
+.printings {
+    margin-bottom: 3.2rem;
+}
+
+.printings__header {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 1.4rem;
+    letter-spacing: 0.05em;
+    margin-bottom: 1.6rem;
+}
+
+.printings__view {
+    color: #abc4e9;
+    font-size: 1.2rem;
+}
+
+.printings__grid {
+    display: flex;
+    gap: 1.6rem;
+}
+
+.printings__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+}
+
+.printings__thumb {
+    width: 10rem;
+    border-radius: 6% / 3.5%;
+    filter: drop-shadow(0 0 0.4rem rgba(252,250,250,0.35));
+}
+
+.printings__badge {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-size: 1.2rem;
+    color: #dad9db;
+}
+
+.language-switcher {
+    display: flex;
+    gap: 0.8rem;
+    margin-bottom: 4.8rem;
+}
+
+.language-switcher__btn {
+    padding: 0.6rem 1.2rem;
+    background: transparent;
+    border: 1px solid #434472;
+    border-radius: 0.3rem;
+    color: #dad9db;
+    font-size: 1.4rem;
+    font-family: inherit;
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+
+.language-switcher__btn:hover {
+    border-color: #8257ed;
+    color: #fff;
+}
+
+.language-switcher__btn--active {
+    background: #5d5fc7;
+    border-color: #5d5fc7;
+    color: #fff;
+}
+
+.search-dropdown {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    right: 0;
+    margin-top: 0.4rem;
+    background: #161621;
+    border: 1px solid #434472;
+    border-radius: 0.5rem;
+    max-height: 32rem;
+    overflow-y: auto;
+    z-index: 200;
+}
+
+.search-dropdown__item {
+    display: flex;
+    gap: 0.8rem;
+    padding: 0.8rem 1.2rem;
+    font-size: 1.4rem;
+    color: #fff;
+}
+
+.search-dropdown__item:hover {
+    background: #252435;
+    text-decoration: none;
+}
+
+.search-dropdown__num {
+    color: #828282;
+}
+
+.search-dropdown__empty {
+    padding: 0.8rem 1.2rem;
+    font-size: 1.4rem;
+    color: #828282;
+}
+
+.field-error {
+    display: block;
+    color: #ff1c1c;
+    font-size: 1.2rem;
+    margin-top: 0.4rem;
+}
+
+.field-counter {
+    display: block;
+    text-align: right;
+    color: #828282;
+    font-size: 1.2rem;
+    margin-top: 0.4rem;
+}
+
+.input--invalid {
+    border-color: #ff1c1c !important;
+}
+
+@media (max-width: 1200px) {
+    .grid {
+        grid-template-columns: repeat(5, 1fr);
+        gap: 2rem;
+    }
+}
+
+@media (max-width: 992px) {
+    .grid {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .site-footer__columns {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .card-detail {
+        grid-template-columns: 1fr;
+        gap: 3.2rem;
+    }
+
+    .card-detail__image {
+        max-width: 28rem;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 768px) {
+    .grid {
+        grid-template-columns: repeat(3, 1fr);
+        gap: 1.6rem;
+    }
+
+    .site-header__nav {
+        display: none;
+    }
+
+    .controls {
+        flex-direction: column;
+        gap: 1.2rem;
+        align-items: flex-start;
+    }
+
+    .controls__left {
+        flex-wrap: wrap;
+    }
+
+    .info-row--split {
+        grid-template-columns: 1fr;
+    }
+}
+
+@media (max-width: 576px) {
+    .grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .site-footer__columns {
+        grid-template-columns: 1fr;
+    }
+
+    .card-detail__image {
+        max-width: 24rem;
+    }
+}
+
+.site-footer__banner {
+    max-width: 72rem;
+    width: 100%;
+    height: auto;
+    aspect-ratio: 720 / 90;
+}
+
+.site-footer__banners {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.6rem;
+    padding: 3.2rem 0;
+    max-width: 72rem;
+    margin: 0 auto;
+}
+
+.site-footer__banner {
+    display: block;
+    width: 100%;
+    max-width: 72rem;
+    aspect-ratio: 720 / 90;
+    object-fit: contain;
+    border-radius: 0.5rem;
+    transition: opacity 0.15s ease;
+}
+
+.site-footer__banner:hover {
+    opacity: 0.9;
+}
+
+.site-footer__banners a {
+    display: block;
+    width: 100%;
+    max-width: 72rem;
+}
+
+/* ===== ПРОЗРАЧНЫЕ КНОПКИ ===== */
+
+/* Пагинация */
+.pagination__link {
+    background: transparent;
+    border: 1px solid #434472;
+    color: #fff;
+    min-width: 3rem;
+    height: 3rem;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    border-radius: 0.3rem;
+    font-size: 1.4rem;
+    transition: all 0.15s ease;
+}
+
+.pagination__link:hover {
+    border-color: #8257ed;
+    background: rgba(130, 87, 237, 0.1);
+}
+
+.pagination__link--active {
+    background: #5d5fc7;
+    border-color: #5d5fc7;
+    color: #fff;
+}
+
+.pagination__link--active:hover {
+    background: #5d5fc7;
+}
+
+/* Селекторы (Display, Sorted By, Ascending) */
+.controls__select,
+.controls select {
+    background: transparent;
+    border: 1px solid #434472;
+    color: #fff;
+    padding: 0.8rem 1.2rem;
+    border-radius: 0.3rem;
+    font-size: 1.4rem;
+    cursor: pointer;
+    appearance: none;
+    -webkit-appearance: none;
+    background-image: url('/images/ui/chevron-down.svg');
+    background-repeat: no-repeat;
+    background-position: right 1rem center;
+    background-size: 1.2rem;
+    padding-right: 3rem;
+}
+
+.controls select option {
+    background: #161621;
+    color: #fff;
+}
+
+/* Кнопки языков */
+.language-switcher__btn {
+    background: transparent;
+    border: 1px solid #434472;
+    color: #fff;
+    padding: 0.6rem 1.2rem;
+    border-radius: 0.3rem;
+    font-size: 1.4rem;
+    cursor: pointer;
+    transition: all 0.15s ease;
+}
+
+.language-switcher__btn:hover {
+    border-color: #8257ed;
+    background: rgba(130, 87, 237, 0.1);
+}
+
+.language-switcher__btn--active {
+    background: #5d5fc7;
+    border-color: #5d5fc7;
+}
+
+.language-switcher__btn--active:hover {
+    background: #5d5fc7;
+}
+
+/* ===== СТРАНИЦА КАРТЫ (как на оригинале) ===== */
+
+/* Подшапка с информацией о сете */
+.card-detail-header {
+    display: flex;
+    align-items: center;
+    gap: 1.2rem;
+    padding: 1.6rem 0;
+    border-bottom: 1px solid #333347;
+    margin-bottom: 2.4rem;
+}
+
+.card-detail-header__icon {
+    width: 3.2rem;
+    height: 3.2rem;
+}
+
+.card-detail-header__title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 2.4rem;
+    font-weight: 400;
+    color: #fff;
+    margin: 0;
+}
+
+.card-detail-header__meta {
+    margin-left: auto;
+    font-size: 1.4rem;
+    color: #828282;
+}
+
+/* Основная сетка: картинка слева, поля справа */
+.card-detail {
+    display: grid;
+    grid-template-columns: 32rem 1fr;
+    gap: 4.8rem;
+    margin-bottom: 4.8rem;
+}
+
+.card-detail__image {
+    position: sticky;
+    top: 2rem;
+    align-self: start;
+}
+
+.card-detail__img {
+    width: 100%;
+    border-radius: 6% / 3.5%;
+    filter: drop-shadow(0 0 0.4rem rgba(252, 250, 250, 0.35));
+}
+
+/* Поля в одну колонку */
+.card-detail__info {
+    display: flex;
+    flex-direction: column;
+    gap: 2.4rem;
+}
+
+.info-row {
+    display: flex;
+    flex-direction: column;
+    gap: 0.6rem;
+}
+
+.info-row__label {
+    font-family: 'GothamNarrow', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 400;
+    color: #828282;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+}
+
+.info-row__value {
+    font-family: 'GothamNarrow', sans-serif;
+    font-size: 1.6rem;
+    color: #fff;
+    line-height: 1.5;
+}
+
+.info-row__value--title {
+    font-size: 2.4rem;
+    font-weight: 700;
+}
+
+.info-row__value--rules {
+    white-space: pre-line;
+    font-size: 1.4rem;
+}
+
+.info-row__value--flavor {
+    font-style: italic;
+    color: #dad9db;
+    font-size: 1.4rem;
+}
+
+.info-row__value--link {
+    color: #abc4e9;
+    cursor: pointer;
+}
+
+.info-row__value--link:hover {
+    text-decoration: underline;
+}
+
+/* P/T крупно как на оригинале */
+.info-row__value--pt {
+    font-family: 'Beleren', sans-serif;
+    font-size: 3.2rem;
+    font-weight: 700;
+    color: #fff;
+}
+
+/* Printings секция */
+.printings {
+    margin-bottom: 3.2rem;
+    padding: 2.4rem 0;
+    border-top: 1px solid #333347;
+}
+
+.printings__header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1.6rem;
+}
+
+.printings__title {
+    font-family: 'GothamNarrow', sans-serif;
+    font-size: 1.4rem;
+    color: #828282;
+    text-transform: uppercase;
+}
+
+.printings__view {
+    font-family: 'GothamNarrow', sans-serif;
+    font-size: 1.4rem;
+    color: #abc4e9;
+    text-decoration: none;
+}
+
+.printings__view:hover {
+    text-decoration: underline;
+}
+
+.printings__grid {
+    display: flex;
+    gap: 1.6rem;
+}
+
+.printings__item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.8rem;
+    text-decoration: none;
+}
+
+.printings__thumb {
+    width: 12rem;
+    border-radius: 6% / 3.5%;
+    filter: drop-shadow(0 0 0.4rem rgba(252, 250, 250, 0.35));
+    transition: transform 0.15s ease;
+}
+
+.printings__item:hover .printings__thumb {
+    transform: scale(1.05);
+}
+
+.printings__badge {
+    display: flex;
+    align-items: center;
+    gap: 0.6rem;
+    font-size: 1.2rem;
+    color: #828282;
+}
+
+/* Адаптивность для страницы карты */
+@media (max-width: 992px) {
+    .card-detail {
+        grid-template-columns: 1fr;
+        gap: 3.2rem;
+    }
+
+    .card-detail__image {
+        position: static;
+        max-width: 32rem;
+        margin: 0 auto;
+    }
+}
+
+@media (max-width: 576px) {
+    .card-detail__img {
+        max-width: 24rem;
+    }
+}

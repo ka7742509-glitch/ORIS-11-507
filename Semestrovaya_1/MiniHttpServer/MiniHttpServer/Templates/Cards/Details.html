@@ -1,0 +1,210 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>${Card.Name} MTG - ${Set.Name} #${NumberPadded}</title>
+    <link rel="stylesheet" href="/css/site.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="site-header__inner">
+        <a href="/cards/list" class="site-header__logo">
+            <img src="/images/ui/gatherer_logo.svg" alt="Gatherer" class="site-header__logo-img">
+        </a>
+        <form class="site-header__search" action="/cards/list" method="get">
+            <input type="text" name="q" value="" placeholder="Search Magic Multiverse" class="site-header__search-input">
+        </form>
+        <nav class="site-header__nav">
+            <a href="#" class="site-header__nav-link"><img src="/images/ui/search.svg" class="site-header__nav-icon" alt="">Advanced Search</a>
+            <a href="#" class="site-header__nav-link"><img src="/images/ui/sets.svg" class="site-header__nav-icon" alt="">Sets</a>
+            <a href="#" class="site-header__nav-link"><img src="/images/ui/random.svg" class="site-header__nav-icon" alt="">Random</a>
+            <a href="#" class="site-header__nav-link"><img src="/images/ui/syntax.svg" class="site-header__nav-icon" alt="">Syntax</a>
+        </nav>
+    </div>
+</header>
+
+<main class="main">
+    <div class="main__bg"></div>
+    <div class="main__overlay"></div>
+
+    <div class="container">
+        <div class="card-detail">
+            <div class="card-detail__image">
+                <img src="/images/cards/${NumberPadded}.webp" alt="${Card.Name}" class="card-detail__img">
+            </div>
+
+            <div class="card-detail__info">
+                <div class="info-row">
+                    <div class="info-row__label">CARD NAME</div>
+                    <div class="info-row__value info-row__value--title">${Card.Name}</div>
+                </div>
+
+                <div class="info-row">
+                    <div class="info-row__label">MANA COST</div>
+                    <div class="info-row__value">${Card.ManaCost}</div>
+                </div>
+
+                <div class="info-row info-row--split">
+                    <div class="info-row__half">
+                        <div class="info-row__label">TYPE</div>
+                        <div class="info-row__value">${Card.TypeLine}</div>
+                    </div>
+                    <div class="info-row__half">
+                        <div class="info-row__label">RARITY</div>
+                        <div class="info-row__value">${Rarity.Name}</div>
+                    </div>
+                </div>
+
+                $if(Card.RulesText)
+                <div class="info-row">
+                    <div class="info-row__label">RULES TEXT</div>
+                    <div class="info-row__value info-row__value--rules">${Card.RulesText}</div>
+                </div>
+                $endif
+
+                $if(Card.FlavorText)
+                <div class="info-row">
+                    <div class="info-row__label">FLAVOR TEXT</div>
+                    <div class="info-row__value info-row__value--flavor">${Card.FlavorText}</div>
+                </div>
+                $endif
+
+                <div class="info-row info-row--split">
+                    <div class="info-row__half">
+                        <div class="info-row__label">ARTIST</div>
+                        <div class="info-row__value info-row__value--link">${Artist.Name}</div>
+                    </div>
+                    <div class="info-row__half">
+                        <div class="info-row__label">P/T</div>
+                        <div class="info-row__value">${PowerToughness}</div>
+                    </div>
+                </div>
+
+                <div class="info-row info-row--split">
+                    <div class="info-row__half">
+                        <div class="info-row__label">SET</div>
+                        <div class="info-row__value info-row__value--link">${Set.Name}</div>
+                    </div>
+                    <div class="info-row__half">
+                        <div class="info-row__label">NUMBER</div>
+                        <div class="info-row__value">${Card.Number}</div>
+                    </div>
+                </div>
+
+                <div class="info-row">
+                    <div class="info-row__label">LANGUAGE</div>
+                    <div class="info-row__value">${Card.Language}</div>
+                </div>
+            </div>
+        </div>
+
+        <div class="printings">
+            <div class="printings__header">
+                <span>PRINTINGS (1)</span>
+                <a href="#" class="printings__view">VIEW</a>
+            </div>
+            <div class="printings__grid">
+                <a href="/cards/details?id=${Card.Id}" class="printings__item">
+                    <img src="/images/cards/${NumberPadded}.webp" alt="${Card.Name}" class="printings__thumb">
+                    <div class="printings__badge">
+                        <span>${Set.Code}</span>
+                        <span>#${Card.Number}</span>
+                    </div>
+                </a>
+            </div>
+        </div>
+
+        <div class="language-switcher">
+            $foreach(var lang in Languages)
+            $if(lang.IsActive)
+            <button class="language-switcher__btn language-switcher__btn--active">${lang.Code}</button>
+            $else
+            <button class="language-switcher__btn">${lang.Code}</button>
+            $endif
+            $endfor
+        </div>
+    </div>
+</main>
+
+<footer class="site-footer">
+    <div class="site-footer__banners">
+        <img src="/images/ui/banner-secret-lair.webp" alt="" class="site-footer__banner">
+        <img src="/images/ui/banner-star-trek.jpg" alt="" class="site-footer__banner">
+    </div>
+    <div class="container site-footer__content">
+        <div class="site-footer__columns">
+            <div class="site-footer__column">
+                <h4 class="site-footer__heading">Find</h4>
+                <ul class="site-footer__list">
+                    <li><a href="#">Articles</a></li>
+                    <li><a href="#">Club support</a></li>
+                    <li><a href="#">Digital Books</a></li>
+                    <li><a href="#">Formats</a></li>
+                    <li><a href="#">Rules</a></li>
+                    <li><a href="#">Military Support</a></li>
+                </ul>
+            </div>
+            <div class="site-footer__column">
+                <h4 class="site-footer__heading">Company</h4>
+                <ul class="site-footer__list">
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Accounts</a></li>
+                    <li><a href="#">Careers</a></li>
+                    <li><a href="#">Support</a></li>
+                    <li><a href="#">Wizards Play Network</a></li>
+                    <li><a href="#">Affiliate Program Disclosure</a></li>
+                </ul>
+            </div>
+            <div class="site-footer__column">
+                <h4 class="site-footer__heading">Magic</h4>
+                <ul class="site-footer__list">
+                    <li><a href="#">Magic: The Gathering</a></li>
+                    <li><a href="#">Magic Arena</a></li>
+                    <li><a href="#">Magic.gg</a></li>
+                    <li><a href="#">Store & Events Locator</a></li>
+                    <li><a href="#">Secret Lair</a></li>
+                    <li><a href="#">SpellTable</a></li>
+                </ul>
+            </div>
+            <div class="site-footer__column">
+                <h4 class="site-footer__heading">Brands</h4>
+                <ul class="site-footer__list">
+                    <li><a href="#">Dungeons & Dragons</a></li>
+                    <li><a href="#">Duel Masters</a></li>
+                    <li><a href="#">Magic</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="site-footer__logos">
+            <img src="/images/ui/wotc.svg" alt="Wizards of the Coast" class="site-footer__logo">
+            <img src="/images/ui/hasbro.svg" alt="Hasbro" class="site-footer__logo">
+            <img src="/images/ui/esrb.png" alt="ESRB" class="site-footer__logo">
+            <img src="/images/ui/teen-esrb.png" alt="Teen" class="site-footer__logo">
+        </div>
+        <div class="site-footer__legal">
+            <a href="#">Terms</a>
+            <a href="#">Code of Conduct</a>
+            <a href="#">Privacy Policy</a>
+            <a href="#">Cookie Policy</a>
+            <a href="#">Customer Support</a>
+            <a href="#">Your Privacy Choices</a>
+            <a href="#">Fan Content Policy</a>
+            <a href="#">Attribution</a>
+            <a href="#">Accessibility Statement</a>
+            <a href="#">Do Not Sell or Share My Personal Information</a>
+            <a href="#">Changelog</a>
+            <select class="site-footer__lang">
+                <option>English</option>
+            </select>
+        </div>
+        <div class="site-footer__copy">
+            Gatherer provides the official and most up-to-date card text and rulings directly from Wizards of the Coast.<br>
+            © 1993-2026 Wizards of the Coast LLC, a subsidiary of Hasbro, Inc. All Rights Reserved.
+        </div>
+    </div>
+</footer>
+
+<script src="/js/search.js"></script>
+</body>
+</html>

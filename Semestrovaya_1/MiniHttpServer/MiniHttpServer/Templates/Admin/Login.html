@@ -1,0 +1,67 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Вход в панель управления</title>
+    <link rel="stylesheet" href="/css/site.css">
+</head>
+<body>
+<header class="site-header">
+    <div class="site-header__inner">
+        <a href="/cards/list" class="site-header__logo">
+            <img src="/images/ui/gatherer_logo.svg" alt="Gatherer" class="site-header__logo-img">
+        </a>
+        <nav class="site-header__nav">
+            <a href="/cards/list" class="site-header__nav-link">Каталог</a>
+        </nav>
+    </div>
+</header>
+
+<main class="main">
+    <div class="main__bg"></div>
+    <div class="main__overlay"></div>
+
+    <div class="container" style="max-width: 40rem; margin: 4rem auto;">
+        <h1 style="font-family: 'Bebas Neue', sans-serif; font-size: 3rem; margin-bottom: 2rem; text-align: center;">
+            Панель управления
+        </h1>
+
+        $if(Error)
+        <div style="background: #ff1c1c; color: #fff; padding: 1rem; border-radius: 0.5rem; margin-bottom: 1.5rem; text-align: center;">
+            ${Error}
+        </div>
+        $endif
+
+        <form action="/auth/login" method="post" style="display: flex; flex-direction: column; gap: 1.2rem;">
+            <label style="font-size: 1.4rem; color: #dad9db;">Логин</label>
+            <input type="text" name="login" value="${Login}" required
+                   pattern="[a-zA-Z0-9_]{3,20}" maxlength="20"
+                   style="height: 3.4rem; padding: 0 1.2rem; background: #161621; border: 1px solid #434472; border-radius: 0.5rem; color: #fff; font-size: 1.4rem;">
+
+            <label style="font-size: 1.4rem; color: #dad9db;">Пароль</label>
+            <input type="password" name="password" required maxlength="64"
+                   style="height: 3.4rem; padding: 0 1.2rem; background: #161621; border: 1px solid #434472; border-radius: 0.5rem; color: #fff; font-size: 1.4rem;">
+
+            <button type="submit"
+                    style="height: 3.4rem; background: #5d5fc7; color: #fff; border: none; border-radius: 0.5rem; font-size: 1.4rem; cursor: pointer; margin-top: 1rem;">
+                Войти
+            </button>
+        </form>
+
+        <p style="text-align: center; margin-top: 1.5rem;">
+            <a href="/cards/list" style="color: #abc4e9;">Войти как гость →</a>
+        </p>
+    </div>
+</main>
+
+<footer class="site-footer">
+    <div class="container site-footer__content">
+        <div class="site-footer__copy">
+            © 1993-2026 Wizards of the Coast LLC. Все права защищены.
+        </div>
+    </div>
+</footer>
+</body>
+<script src="/js/validation.js"></script>
+</html>

@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "QZqWgLlmSV8=",
+  "success": true,
+  "projectFilePath": "C:\\Users\\ka774\\Desktop\\ORIS-11-507\\Semestrovaya_1\\MiniHttpServer\\MiniHttpServer.ORM\\MiniHttpServer.ORM.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\ka774\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\10.0.0\\microsoft.extensions.dependencyinjection.abstractions.10.0.0.nupkg.sha512",
+    "C:\\Users\\ka774\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\10.0.0\\microsoft.extensions.logging.abstractions.10.0.0.nupkg.sha512",
+    "C:\\Users\\ka774\\.nuget\\packages\\npgsql\\10.0.3\\npgsql.10.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
